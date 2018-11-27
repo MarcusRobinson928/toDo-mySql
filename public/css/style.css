@@ -1,0 +1,67 @@
+#cal {
+    display: grid;
+    grid-template-columns: 125px auto
+}
+
+#day {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#date {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+input {
+    border: none;
+    color: grey;
+    border-bottom: solid 2px black;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 4px 175px 4px 5px;
+}
+
+#list {
+    margin: 25px;
+}
+
+#todoList {
+    display: grid;
+    grid-template-columns: 300px 50px;
+    list-style-type: none;
+    margin-top: 25px;
+    grid-column: span 2;
+}
+
+li {
+    grid-column: 1;
+    font-size: 24px;
+}
+
+.edit {
+    grid-column: 1;
+    border: none;
+    color: grey;
+    border-bottom: solid 2px black;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 4px 175px 4px 5px;
+}
+
+li.complete {
+    color: grey
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: teal;
+    grid-column: 2
+}
