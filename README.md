@@ -1,1 +1,1 @@
-# Homework-MySQL
+# To Do app using MySQL
